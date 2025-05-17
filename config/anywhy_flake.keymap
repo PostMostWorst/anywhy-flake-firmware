@@ -48,7 +48,7 @@
         adjust_layer {
             bindings = <
 &kp C_NEXT      &kp HOME    &none   &none   &kp I           &kp BACKSLASH       &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &sys_reset  &bootloader
-&kp C_PREVIOUS  &kp END     &none   &none   &kp HOME        &kp U               &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none       &none
+&kp C_PREVIOUS  &kp END     &none   &none   &kp HOME        &kp U               &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp A       &kp B
 &trans          &kp ESCAPE  &none   &none   &kp END         &kp DELETE          &none           &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &none       &trans
                 &trans      &trans  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL    &none           &trans          &trans          &trans           &trans
             >;
